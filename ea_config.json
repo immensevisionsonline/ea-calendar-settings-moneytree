@@ -1,0 +1,147 @@
+{
+  "updated": "2025-09-17T06:00:00Z",
+  "timezone": "Europe/London",
+  "newsBufferMinutes": 30,
+
+  "mode": "NORMAL",  // switch here: NORMAL | MINOR | MAJOR
+
+  "modes": {
+    "NORMAL": {
+      "equityGuards": { "targetProfitPercent": 2.0, "maxLossPercent": 2.0 },
+      "pairs": {
+        "AUDUSD": {
+          "enabled": true,
+          "risk": 1.5,
+          "maxSpread": 20,
+          "stopLossPips": 28,
+          "takeProfitPips": 55,
+          "trailing": { "startPips": 15, "stopPips": 20, "stepPips": 4 },
+          "entryWindow": { "start": "00:00", "end": "05:30" },
+          "allowedDirection": 2
+        },
+        "GBPUSD": {
+          "enabled": true,
+          "risk": 1.5,
+          "maxSpread": 25,
+          "stopLossPips": 30,
+          "takeProfitPips": 65,
+          "trailing": { "startPips": 18, "stopPips": 25, "stepPips": 4 },
+          "entryWindow": { "start": "09:00", "end": "16:00" },
+          "allowedDirection": 2
+        },
+        "USDJPY": {
+          "enabled": true,
+          "risk": 1.5,
+          "maxSpread": 20,
+          "stopLossPips": 25,
+          "takeProfitPips": 50,
+          "trailing": { "startPips": 12, "stopPips": 18, "stepPips": 4 },
+          "entryWindow": { "start": "12:00", "end": "16:30" },
+          "allowedDirection": 2
+        },
+        "EURGBP": {
+          "enabled": false,
+          "risk": 1.0,
+          "maxSpread": 12,
+          "stopLossPips": 70,
+          "takeProfitPips": 140,
+          "trailing": { "startPips": 40, "stopPips": 55, "stepPips": 5 },
+          "entryWindow": { "start": "08:00", "end": "15:00" },
+          "allowedDirection": 2
+        }
+      }
+    },
+
+    "MINOR": {
+      "equityGuards": { "targetProfitPercent": 1.5, "maxLossPercent": 1.5 },
+      "pairs": {
+        "AUDUSD": {
+          "enabled": true,
+          "risk": 1.0,
+          "maxSpread": 18,
+          "stopLossPips": 22,
+          "takeProfitPips": 40,
+          "trailing": { "startPips": 12, "stopPips": 18, "stepPips": 4 },
+          "entryWindow": { "start": "00:00", "end": "05:30" },
+          "allowedDirection": 2
+        },
+        "GBPUSD": {
+          "enabled": true,
+          "risk": 1.0,
+          "maxSpread": 22,
+          "stopLossPips": 25,
+          "takeProfitPips": 50,
+          "trailing": { "startPips": 15, "stopPips": 20, "stepPips": 4 },
+          "entryWindow": { "start": "09:00", "end": "16:00" },
+          "allowedDirection": 2
+        },
+        "USDJPY": {
+          "enabled": true,
+          "risk": 1.0,
+          "maxSpread": 18,
+          "stopLossPips": 22,
+          "takeProfitPips": 42,
+          "trailing": { "startPips": 12, "stopPips": 18, "stepPips": 4 },
+          "entryWindow": { "start": "12:00", "end": "16:30" },
+          "allowedDirection": 2
+        },
+        "EURGBP": {
+          "enabled": true,
+          "risk": 1.0,
+          "maxSpread": 12,
+          "stopLossPips": 70,
+          "takeProfitPips": 140,
+          "trailing": { "startPips": 40, "stopPips": 55, "stepPips": 5 },
+          "entryWindow": { "start": "08:00", "end": "15:00" },
+          "allowedDirection": 2
+        }
+      }
+    },
+
+    "MAJOR": {
+      "equityGuards": { "targetProfitPercent": 3.0, "maxLossPercent": 3.0 },
+      "pairs": {
+        "AUDUSD": {
+          "enabled": true,
+          "risk": 2.0,
+          "maxSpread": 20,
+          "stopLossPips": 30,
+          "takeProfitPips": 70,
+          "trailing": { "startPips": 18, "stopPips": 25, "stepPips": 5 },
+          "entryWindow": { "start": "00:00", "end": "05:30" },
+          "allowedDirection": 2
+        },
+        "GBPUSD": {
+          "enabled": true,
+          "risk": 2.0,
+          "maxSpread": 25,
+          "stopLossPips": 35,
+          "takeProfitPips": 80,
+          "trailing": { "startPips": 22, "stopPips": 28, "stepPips": 5 },
+          "entryWindow": { "start": "09:00", "end": "16:00" },
+          "allowedDirection": 2
+        },
+        "USDJPY": {
+          "enabled": true,
+          "risk": 2.0,
+          "maxSpread": 20,
+          "stopLossPips": 30,
+          "takeProfitPips": 65,
+          "trailing": { "startPips": 18, "stopPips": 24, "stepPips": 5 },
+          "entryWindow": { "start": "12:00", "end": "16:30" },
+          "allowedDirection": 2
+        },
+        "EURGBP": {
+          "enabled": false,
+          "risk": 1.0,
+          "maxSpread": 12,
+          "stopLossPips": 70,
+          "takeProfitPips": 140,
+          "trailing": { "startPips": 40, "stopPips": 55, "stepPips": 5 },
+          "entryWindow": { "start": "08:00", "end": "15:00" },
+          "allowedDirection": 2
+        }
+      }
+    }
+  }
+}
