@@ -1,0 +1,24 @@
+; EURGBP RSIEnvelope - MAJOR cycle / high volatility events (ECB or BoE policy)
+LotSizingMethod=3
+InitialRiskPercent=2.00
+ManualLots=0.01
+Enabled=true
+AllowedDirection=2
+MaxSpread=15
+RSIPeriod=14
+RSI_Overbought=76
+RSI_Oversold=24
+Envelope_Period=22
+Envelope_Deviation=1.5
+InitialStopLoss=70
+TakeProfit=120
+TrailingStart=35
+TrailingStop=45
+TrailingStep=7
+EntryWindow_StartHour=7
+EntryWindow_StartMin=30
+EntryWindow_UntilHour=16
+EntryWindow_UntilMin=0
+Run_TargetProfitAmount=400
+Run_MaxLossAmount=250
+MagicNumber=88404
