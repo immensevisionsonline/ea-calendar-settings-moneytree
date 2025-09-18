@@ -1,0 +1,24 @@
+; EURGBP RSIEnvelope - HIGH_RISK | aggressive breakout mode
+LotSizingMethod=3
+InitialRiskPercent=3.00
+ManualLots=0.01
+Enabled=true
+AllowedDirection=2
+MaxSpread=15
+RSIPeriod=14
+RSI_Overbought=78
+RSI_Oversold=22
+Envelope_Period=25
+Envelope_Deviation=1.8
+InitialStopLoss=90
+TakeProfit=150
+TrailingStart=40
+TrailingStop=55
+TrailingStep=8
+EntryWindow_StartHour=7
+EntryWindow_StartMin=0
+EntryWindow_UntilHour=16
+EntryWindow_UntilMin=30
+Run_TargetProfitAmount=600
+Run_MaxLossAmount=350
+MagicNumber=88405
