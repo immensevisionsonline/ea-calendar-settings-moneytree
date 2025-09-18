@@ -1,0 +1,24 @@
+; EURGBP RSIEnvelope - NORMAL baseline
+LotSizingMethod=3
+InitialRiskPercent=1.50
+ManualLots=0.01
+Enabled=true
+AllowedDirection=2
+MaxSpread=12
+RSIPeriod=14
+RSI_Overbought=75
+RSI_Oversold=25
+Envelope_Period=20
+Envelope_Deviation=1.2
+InitialStopLoss=60
+TakeProfit=100
+TrailingStart=30
+TrailingStop=40
+TrailingStep=6
+EntryWindow_StartHour=8
+EntryWindow_StartMin=0
+EntryWindow_UntilHour=15
+EntryWindow_UntilMin=0
+Run_TargetProfitAmount=300
+Run_MaxLossAmount=200
+MagicNumber=88403
