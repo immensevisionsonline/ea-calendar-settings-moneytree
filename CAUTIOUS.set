@@ -1,0 +1,27 @@
+; version=2025-09-18T11:15Z ; author=IV ; note=USDJPY CAUTIOUS | Yen strength trend, safe small stops
+PSMHelp=************************************
+LotSizingMethod=3
+InitialRiskPercent=0.75
+ManualLots=0.01
+AllowedDirection=2
+TradeDirection=0
+MA1_Period=10
+MA2_Period=30
+MA1_Method=1
+MA2_Method=1
+ADX_Period=14
+ADX_TriggerLevel=20
+MaxTrades=1
+MaxSpread=18
+InitialStopLoss=20
+TakeProfit=35
+TrailingStart=10
+TrailingStop=14
+TrailingStep=3
+Run_TargetProfitAmount=250
+Run_MaxLossAmount=150
+EntryWindow_StartHour=12
+EntryWindow_StartMin=0
+EntryWindow_UntilHour=16
+EntryWindow_UntilMin=30
+MagicNumber=68304
