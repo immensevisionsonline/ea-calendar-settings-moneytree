@@ -1,0 +1,24 @@
+; EURGBP RSIEnvelope - MINOR cycle
+LotSizingMethod=3
+InitialRiskPercent=1.00
+ManualLots=0.01
+Enabled=true
+AllowedDirection=2
+MaxSpread=12
+RSIPeriod=14
+RSI_Overbought=72
+RSI_Oversold=28
+Envelope_Period=18
+Envelope_Deviation=1.0
+InitialStopLoss=50
+TakeProfit=80
+TrailingStart=25
+TrailingStop=35
+TrailingStep=5
+EntryWindow_StartHour=8
+EntryWindow_StartMin=0
+EntryWindow_UntilHour=15
+EntryWindow_UntilMin=0
+Run_TargetProfitAmount=200
+Run_MaxLossAmount=120
+MagicNumber=88402
