@@ -1,0 +1,25 @@
+; EURGBP RSIEnvelope - CAUTIOUS
+; version=2025-09-18 ; author=IV ; low volatility baseline
+LotSizingMethod=3
+InitialRiskPercent=0.50
+ManualLots=0.01
+Enabled=true
+AllowedDirection=2
+MaxSpread=12
+RSIPeriod=14
+RSI_Overbought=70
+RSI_Oversold=30
+Envelope_Period=20
+Envelope_Deviation=0.8
+InitialStopLoss=40
+TakeProfit=60
+TrailingStart=20
+TrailingStop=30
+TrailingStep=5
+EntryWindow_StartHour=8
+EntryWindow_StartMin=0
+EntryWindow_UntilHour=15
+EntryWindow_UntilMin=0
+Run_TargetProfitAmount=150
+Run_MaxLossAmount=100
+MagicNumber=88401
