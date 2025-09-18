@@ -1,0 +1,27 @@
+; version=2025-09-18T10:45Z ; author=IV ; note=GBPUSD MAJOR | strong UK CPI or Fed shock | wider TP
+PSMHelp=************************************
+LotSizingMethod=3
+InitialRiskPercent=2.00
+ManualLots=0.01
+AllowedDirection=2
+TradeDirection=0
+MA1_Period=10
+MA2_Period=30
+MA1_Method=1
+MA2_Method=1
+ADX_Period=14
+ADX_TriggerLevel=20
+MaxTrades=1
+MaxSpread=25
+InitialStopLoss=35
+TakeProfit=80
+TrailingStart=22
+TrailingStop=28
+TrailingStep=5
+Run_TargetProfitAmount=500
+Run_MaxLossAmount=300
+EntryWindow_StartHour=9
+EntryWindow_StartMin=0
+EntryWindow_UntilHour=16
+EntryWindow_UntilMin=0
+MagicNumber=68203
