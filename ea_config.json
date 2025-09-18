@@ -2,9 +2,7 @@
   "updated": "2025-09-17T06:00:00Z",
   "timezone": "Europe/London",
   "newsBufferMinutes": 30,
-
-  "mode": "NORMAL",  // switch here: NORMAL | MINOR | MAJOR
-
+  "mode": "NORMAL",
   "modes": {
     "NORMAL": {
       "equityGuards": { "targetProfitPercent": 2.0, "maxLossPercent": 2.0 },
@@ -51,7 +49,6 @@
         }
       }
     },
-
     "MINOR": {
       "equityGuards": { "targetProfitPercent": 1.5, "maxLossPercent": 1.5 },
       "pairs": {
@@ -97,7 +94,6 @@
         }
       }
     },
-
     "MAJOR": {
       "equityGuards": { "targetProfitPercent": 3.0, "maxLossPercent": 3.0 },
       "pairs": {
